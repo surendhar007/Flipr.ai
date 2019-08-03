@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<script src="jquery/jquery.js"></script>
+<script type="text/javascript" src='js/bootstrap.min.js'></script>
+<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<style type="text/css" rel="stylesheet" link="table.css"></style>
+  <style >
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+  text-align: left;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: right;
+  width: 60%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+#customers th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  color: black;
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<img src="/home/surendhars/hackthon/logo.svg">
+  <a class="navbar-brand" href="#">Intugine</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Brands</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Transporters</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+         <img src="/home/surendhars/hackthon/profile.svg">
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">logout</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="flex-container">
+  <div>DEL</div>
+  <div>INT</div>
+  <div>OOD</div>
+  <div>DEX</div>
+  <div>NFI</div>
+</div>
+
+<table id="customers">
+  <tr>
+    <th>AWB NUMBER</th>
+    <th>TRANSPORTER</th> 
+    <th>SOURCE</th>
+    <th>BRAND</th>
+    <th>START DATE</th> 
+    <th>ETD</th>
+    <th>STATUS</th>
+  </tr>
+</table>
+</body>
+</html>
+

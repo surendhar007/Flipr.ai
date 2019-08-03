@@ -1,0 +1,31 @@
+div.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+div.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+  text-align: left;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: right;
+  width: 60%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+#customers th {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  color: black;
+}
